@@ -2,6 +2,7 @@
 import "./App.css";
 import { ColorGame } from "./ColorGame";
 import { MovieList } from "./MovieList";
+import { Age } from "./Temp.js";
 
 function App() {
   // let personDetails = [
@@ -31,6 +32,7 @@ function App() {
       ))} */}
       <MovieList />
       <ColorGame />
+      <Age />
     </div>
   );
 }

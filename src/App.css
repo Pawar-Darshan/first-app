@@ -88,3 +88,23 @@
   justify-content: space-around;
   margin-bottom: 10px;
 }
+
+.name{
+  margin-top: 10px;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.surname {
+  margin-bottom: 20px;
+  display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
