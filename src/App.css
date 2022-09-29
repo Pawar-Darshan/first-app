@@ -108,3 +108,12 @@
     flex-wrap: nowrap;
     justify-content: space-around;
 }
+
+.add-movie-form{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 16px;
+  max-width: 450px;
+  gap: 12px;
+}

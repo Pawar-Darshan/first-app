@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "@mui/material/Button";
 
 export function ColorGame() {
   const [color, setColor] = useState("orange");
@@ -22,6 +23,7 @@ export function ColorGame() {
       >
         Add Color
       </button>
+      <Button variant="contained">Contained</Button>
       {colorList.map((clr, index) => (
         <ColorBox key={index} color={clr} />
       ))}
